@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(47, 0, 117);
+  color: white;
+}
+
+.main {
+  position: relative; 
+}
+
+.main h2 {
+  text-align: center;
+}
+
+.main button {
+  color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.box{
+    text-align: center;
+    background-color: red;
+
+}
+.bottom-text{
+    color: red;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: -1px
+}
