@@ -5,7 +5,7 @@
 
 body{
     height: 100vh;
-    background-image: linear-gradient(rgb(48, 2, 68), rgb(16, 16, 16));
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(155, 90, 163));
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -102,28 +102,31 @@ margin-left: auto;
 
 }
 .main-msg h1{
-    justify-content: center;  /*FIXXXX!!!1*/
+    justify-content: center;  
     align-items: center;
-    width:90%;
+
     text-align: center;
     font-size: 80px;
     margin-bottom: 3%;
-    background-color: rgb(116, 1, 1);
 
-    
 }
 
 .main-msg h1:hover{
     cursor: pointer;
+
 }
 
 
-/*Second search Bar*/
+/*Second search Bar*/. error
+{}
+
+
+
 #google-lookup{
     width: 45%;
     padding: 1rem;
     padding-left: 20px;
-
+    color: white;
     border-radius: 20px;
     border-style: none;
     background-color: white;
@@ -182,7 +185,6 @@ footer{
     color: white;
     text-align: center;
     justify-content: center;
-
 }
 
 
@@ -192,11 +194,14 @@ footer{
     text-align: center;
     align-items: ce;
     gap: 10%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+
+    box-shadow: 5px 20px 450px rgba(0, 0, 0, 0.91);
+
     height: 5%;
-
+    height: 20%;
+    margin-top: 10%;
     
-
 }
 
 .link1, .link2, .link3{
@@ -204,10 +209,30 @@ footer{
     display: flex;
     gap:1.5rem;
     text-align: center;
+
+    
+}
+
+.link2 p{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .link1, .link3 {
     justify-content: start;
     display: flex;
     align-items: center;
+
+}
+
+
+.link1 p:hover, .link3 p:hover{
+    transition: .5s;
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgba(155, 155, 255, 0.708);
+
 }
