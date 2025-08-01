@@ -5,14 +5,18 @@
 
 body{
     height: 100vh;
-    background-image: linear-gradient(rgb(37, 1, 52), rgb(24, 24, 24));
+    background-image: linear-gradient(rgb(48, 2, 68), rgb(16, 16, 16));
     font-family: Arial, Helvetica, sans-serif;
 
+}
+/*Icons above - change names to not mix up*/
+.search-bar span:hover{
+    cursor: pointer;
 }
 
 
 .search-bar{
-    height: 2.5rem;
+    height: 2.0rem;
     background-color: rgb(58, 45, 61);
     border: none;
     padding: 5px;
@@ -52,17 +56,21 @@ body{
 
     border-radius: 30px;
     border-style: none;
+    transition: .5s;
 }
 
+/*First Search Bar*/
 #input-bar:hover{
-    cursor: auto;
+    transition: .5s;
+    cursor:auto;
+    background-color: rgb(79, 66, 81);
 }
 
 
 
 
 
-
+/*Below First Bar*/
 .second-bar{
     border-style: none;
     display:flex;
@@ -72,6 +80,8 @@ body{
     height: 1.5rem;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
 }
+
+
 
 #symbol{
     text-align: start;
@@ -84,31 +94,83 @@ margin-left: auto;
 /*All of the other elements (symbols & such) will go down here after I practice how to add*/
 
 .main-msg{
-text-align: center;
-
-
+/*I need help with this(look up how to center div??)*/
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
 
 }
+.main-msg h1{
+    justify-content: center;  /*FIXXXX!!!1*/
+    align-items: center;
+    width:90%;
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 3%;
+    background-color: rgb(116, 1, 1);
 
+    
+}
+
+.main-msg h1:hover{
+    cursor: pointer;
+}
+
+
+/*Second search Bar*/
 #google-lookup{
-    width: 40%;
-    padding: 5px;
+    width: 45%;
+    padding: 1rem;
     padding-left: 20px;
 
     border-radius: 20px;
     border-style: none;
     background-color: white;
+    transition: .6s;
 }
 
 #google-lookup:hover {
     cursor: auto;
+    background-color: rgba(128, 128, 128, 0.46);
+    transition: .6s;
 }
 
 #mode{
     background-color: rgb(230, 230, 230);
     margin-left: 10px;
-    padding: 5px;
+    padding: 10px;
     border-style: none;
     border-radius: 20px;
 
+    transition: .2s;
+}
+
+#mode:hover{
+    cursor: pointer;
+    transition: .5s;
+    background-color: rgba(182, 182, 182, 0.742);
+}
+
+
+.btns{
+    margin-top:4vh ;
+
+}
+
+.btns button{
+    background-color: rgb(77, 46, 77);
+    color: white;
+
+    padding: 7px;
+    border-style: none;
+    border-radius: 3px;
+    transition: .5s;
+
+}
+
+.btns button:hover{
+    background-color: rgb(122, 72, 122);
+    transition:.5s;
+    cursor: pointer;
 }
