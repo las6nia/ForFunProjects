@@ -64,6 +64,7 @@ body{
     transition: .5s;
     cursor:auto;
     background-color: rgb(79, 66, 81);
+    padding-right: 10px;
 }
 
 
@@ -117,8 +118,8 @@ margin-left: auto;
 }
 
 
-/*Second search Bar*/. error
-{}
+/*Second search Bar error*/
+
 
 
 
@@ -126,7 +127,7 @@ margin-left: auto;
     width: 45%;
     padding: 1rem;
     padding-left: 20px;
-    color: white;
+    color: black;
     border-radius: 20px;
     border-style: none;
     background-color: white;
@@ -134,9 +135,11 @@ margin-left: auto;
 }
 
 #google-lookup:hover {
+    color: rgb(255, 255, 255);
     cursor: auto;
     background-color: rgba(128, 128, 128, 0.46);
     transition: .6s;
+    box-shadow: 0px 20px 50px rgba(31, 31, 31, 0.764);
 }
 
 #mode{
@@ -151,21 +154,22 @@ margin-left: auto;
 
 #mode:hover{
     cursor: pointer;
-    transition: .5s;
-    background-color: rgba(182, 182, 182, 0.742);
+    transition: .7s;
+    background-color: rgba(154, 154, 154, 0.503);
+    color: white;
 }
 
 
 .btns{
-    margin-top:4vh ;
+    margin-top:4.5vh ;
 }
 
 .btns button{
-    background-color: rgb(77, 46, 77);
+    background-color: rgb(43, 27, 43);
     color: white;
 
 
-    padding: 10px;
+    padding: 15px;
     margin-left: 20px;
     border-style: none;
     border-radius: 4px;
@@ -177,6 +181,8 @@ margin-left: auto;
     background-color: rgb(122, 72, 122);
     transition:.5s;
     cursor: pointer;
+    box-shadow: 0px 10px 30px rgba(143, 94, 145, 0.764)
+    
 
 }
 
