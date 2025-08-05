@@ -82,6 +82,30 @@ body{
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
 }
 
+.lght-mode{
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .5s;
+}
+.lght-mode button{
+    padding: 7px;
+    background-color: rgb(77, 36, 82);
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    border-style: none;
+    transition: .5s;
+   
+}
+
+.lght-mode button:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: .5s; /*transition doesn't work :(( */
+    background-image: linear-gradient(to right, rgb(157, 92, 155),rgba(240, 162, 246, 0.867));
+}
 
 
 #symbol{
@@ -156,6 +180,7 @@ margin-left: auto;
     cursor: pointer;
     transition: .7s;
     background-color: rgba(154, 154, 154, 0.503);
+    box-shadow: 0px 2px 50px black;
     color: white;
 }
 
@@ -177,7 +202,7 @@ margin-left: auto;
 
 }
 
-.btns button:hover{
+.btns button:hover {
     background-color: rgb(122, 72, 122);
     transition:.5s;
     cursor: pointer;
