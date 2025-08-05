@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Search Bar - Luis Alcala</title>
     <link href="index.css" rel="stylesheet">
+    <script src="index.js"></script>
 
 </head>
-<body>
+<body> <!--new idea  - light and dark mode button for google page-->
     <nav class="search-bar">
         <span id="back">&larr;</span>
         <span id="forward">&rarr;</span>
@@ -18,7 +19,7 @@
         <span id="puzzle"></span>
         <span id="energysave"></span>
         <span id="user"></span>
-        <span id="options"></span> <!--3 vertical dots-->
+        <span id="options"></span> <!--3 vertical dots - add-->
 
     </nav>
     
@@ -26,8 +27,13 @@
         <span id="symbol">&#10070;</span>
         <p id="bookmark">All Bookmarks</p>
     </div>   
+    <!--Light Mode Button-->
+    <div class="lght-mode">
+        <button onclick="lightmode()">Light Mode</button>
+    </div>
     
-    <div class="main-msg">
+    
+    <div class="main-msg">  <!--Make 'google' clickable - use javascript getelementById??-->
          <h1><span style="color: #4285f4;">G</span><span style="color: #db4432;">o</span><span style="color: #f4b400;">o</span><span style="color: #4285f4;">g</span><span style="color: #0f9d58;">l</span><span style="color: #db4432; transform: rotate(-15deg); display: inline-block;" id="lter-e">e</span></h1>
         <input id="google-lookup" type="text" placeholder="Search Google or types a URL"> <!--need help on h2ow to add symbols inside of the search bar-->
         <button id="mode">AI Mode</button>     
