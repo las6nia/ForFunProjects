@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip test</title>
+
+</head>
+<style>
+*{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+body{
+    /*do something*/
+}
+
+.test-flip{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.test-flip img{
+    height: 30%;
+    transition: transform 0.6s;
+}
+
+.test-flip img:hover{
+    cursor: pointer;
+    background-color: red;
+     transition: transform 0.6s;
+  transform-style: preserve-3d;
+     transform: rotateY(180deg);
+}
+</style>
+<body>
+    <div class="test-flip">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="dinosaur-start-game.png">
+        <!--This is just a test to flip-->
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
